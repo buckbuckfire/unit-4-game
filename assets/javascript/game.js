@@ -1,6 +1,19 @@
 //make pc pick a random number 1-100
-var pcRandomNum = (Math.floor(Math.random() * 100) + 1);
-    console.log(pcRandomNum)
+
+$(function() {
+    var pcRandomNum = Math.floor(Math.random() * 100) + 1;
+    $("#randomNum").text(pcRandomNum);
+
+
+});
+
+// $(document).ready(function() {
+
+// })
+
+//
+   // console.log(pcRandomNum)
+   
 
 //make 4 img's hold a value 1-10
 var jewel1 = (Math.floor(Math.random() * 10) + 1);
@@ -16,11 +29,10 @@ var jewel4 = (Math.floor(Math.random() * 10) + 1);
     console.log(jewel4)
 
 //make pcRandomNum show up on randomNum div in html
-
-    
-    
-  
-
+//pcRandomNum.onload = function pcGuess(){
+    //$("#randomNum")= (Math.floor(Math.random() * 100) + 1);
+    //}
+//console.log(pcRandomNum)
 
 //window.onload = function(){
     //pcGuess(pcRandomNum);
