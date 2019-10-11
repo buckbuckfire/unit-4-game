@@ -6,3 +6,69 @@ body {
 .gemOne {
    size: 10px, 10px; 
 }
+
+#gameName {
+    border: solid;
+    color: aliceblue;
+    background-color: black; 
+    padding: 10px,10px;
+    margin: 1px, 1px;
+    float: left;
+
+}
+
+#rules {
+    border: solid;
+    color: aliceblue;
+    background-color: black; 
+    padding: 10px,10px;
+    margin: 1px, 1px;
+    float: left;
+
+}
+
+#randomNum {
+    border: solid;
+    color: aliceblue;
+    background-color: black; 
+    padding: 10px,10px;
+    margin: 1px, 1px;
+    float: left;
+}
+
+#winsLosses {
+    border: solid;
+    color: aliceblue;
+    background-color: black; 
+    padding: 10px,10px;
+    margin: 1px, 1px;
+    float: left;
+}
+
+#gems{
+    border: solid;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px,10px;
+    margin: 1px, 1px;
+    float: left;
+
+}
+
+.yourTotal {
+    border: solid;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px,10px;
+    margin: 1px, 1px;
+    float: left;
+}
+
+#myScore {
+    border: solid;
+    color: aliceblue;
+    background-color: black;
+    padding 10px,10px;
+    margin: 1px, 1px;
+    float: left;
+}

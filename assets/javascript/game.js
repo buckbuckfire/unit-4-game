@@ -3,8 +3,7 @@
 $(function() {
     var pcRandomNum = Math.floor(Math.random() * 100) + 1;
     $("#randomNum").text(pcRandomNum);
-
-
+    
 });
 
 // $(document).ready(function() {
