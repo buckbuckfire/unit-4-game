@@ -1,9 +1,4 @@
-    //make pc pick a random number 1-100
-    $(function() {
-        var pcRandomNum = Math.floor(Math.random() * 100) + 1;
-        $("#randomNum").text(pcRandomNum);
-        
-    });
+   
      // console.log(pcRandomNum)
    
 
@@ -20,8 +15,23 @@ var jewel3 = (Math.floor(Math.random() * 10) + 1);
 var jewel4 = (Math.floor(Math.random() * 10) + 1);
     console.log(jewel4)
 
-var yourScore = Number(jewel1) + Number(jewel2) + Number(jewel3) + Number(jewel4)
-    $("#myScore").text(yourScore);
+//var yourScore = Number(jewel1) + Number(jewel2) + Number(jewel3) + Number(jewel4)
+   // $("#myScore").text(yourScore);
+
+
+ //make pc pick a random number 1-100
+ $(function() {
+    var pcRandomNum = Math.floor(Math.random() * 100) + 1;
+    $("#randomNum").text(pcRandomNum);
+    
+});
+
+var button = document.getElementById("jewel1"),
+  count = 0;
+button.onclick = function() {
+  count += 0;
+  button.innerHTML = "myScore" + count;
+};
 
 
 //var button = document.getElementById("clickme"),
