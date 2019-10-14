@@ -4,7 +4,31 @@ body {
 }
 
 .gemOne {
-   size: 10px, 10px; 
+    background-image: url(../images/amethyst456787b.jpg);
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+
+.gemTwo{
+    background-image: url(../images/rsz_selenite-300x200.jpg);
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+
+.gemThree {
+    background-image: url(../images/1526062666-crystals2new_stevekorn-web.jpg);
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
+}
+
+.gemFour {
+    background-image: url(../images/Quartz\,_Tibet.jpg);
+    background-size: 100px 130px;
+    height: 134px;  
+    width: 104px;
 }
 
 #gameName {
@@ -41,6 +65,7 @@ body {
     position: inherit;
     padding: 50px;
     display: inline-flex;
+    text-align: center;
 }
 
 #winsLosses {
@@ -49,20 +74,11 @@ body {
     background-color: black; 
     padding: 10px,10px;
     margin: 1px, 1px;
-    display: inline-flex;
+    display: inline-block;
     width: 200px;
-    height: 60px;
-}
-
-#gems{
-    border: solid;
-    color: aliceblue;
-    background-color: black;
-    padding: 10px,10px;
-    margin: 1px, 1px;
-    float: left;
-    display: block;
-
+    height: 80px;
+    text-align: justify;
+    
 }
 
 .yourTotal {
