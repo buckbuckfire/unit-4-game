@@ -9,7 +9,6 @@
 
 //make 4 img's hold a value 1-10
 var jewel1 = (Math.floor(Math.random() * 10) + 1);
-document.getElementById("#gemOne");
     console.log(jewel1)
 
 var jewel2 = (Math.floor(Math.random() * 10) + 1);
@@ -22,7 +21,7 @@ var jewel4 = (Math.floor(Math.random() * 10) + 1);
     console.log(jewel4)
 
 var yourScore = Number(jewel1) + Number(jewel2) + Number(jewel3) + Number(jewel4)
-    $("#myscore").text(yourScore);
+    $("#myScore").text(yourScore);
 
 
 //var button = document.getElementById("clickme"),
