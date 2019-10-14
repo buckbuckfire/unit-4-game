@@ -1,21 +1,15 @@
-//make pc pick a random number 1-100
-
-$(function() {
-    var pcRandomNum = Math.floor(Math.random() * 100) + 1;
-    $("#randomNum").text(pcRandomNum);
-    
-});
-
-// $(document).ready(function() {
-
-// })
-
-//
-   // console.log(pcRandomNum)
+    //make pc pick a random number 1-100
+    $(function() {
+        var pcRandomNum = Math.floor(Math.random() * 100) + 1;
+        $("#randomNum").text(pcRandomNum);
+        
+    });
+     // console.log(pcRandomNum)
    
 
 //make 4 img's hold a value 1-10
 var jewel1 = (Math.floor(Math.random() * 10) + 1);
+document.getElementById("#gemOne");
     console.log(jewel1)
 
 var jewel2 = (Math.floor(Math.random() * 10) + 1);
@@ -26,6 +20,17 @@ var jewel3 = (Math.floor(Math.random() * 10) + 1);
 
 var jewel4 = (Math.floor(Math.random() * 10) + 1);
     console.log(jewel4)
+
+var yourScore = Number(jewel1) + Number(jewel2) + Number(jewel3) + Number(jewel4)
+    $("#myscore").text(yourScore);
+
+
+//var button = document.getElementById("clickme"),
+ // count = 0;
+//button.onclick = function() {
+  //count += 1;
+  //button.innerHTML = "Click me: " + count;
+//};
 
 //make pcRandomNum show up on randomNum div in html
 //pcRandomNum.onload = function pcGuess(){
